@@ -9,6 +9,11 @@ public class TestMain {
 		System.out.println(func1.apply(1));
 		
 		
+		
+		Function<String, Integer> func2=x->Integer.parseInt(x);
+		System.out.println(func2.apply("345"));
+		
+		
 	}
 
 }
